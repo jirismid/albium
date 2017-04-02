@@ -72,9 +72,9 @@ table { border-spacing: 0; border-collapse: collapse; }
 /* LAYOUT STYLES */
 body { font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 1em; line-height: 1.5; color: #444343; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat; }
 
-a { color: #d5000d; }
+a { color: #444343; text-decoration: underline;}
 
-a:hover { color: #c5000c; }
+a:hover { color: #333333; text-decoration: none; }
 
 header { padding-top: 35px; padding-bottom: 25px; text-align: center;}
 
@@ -138,7 +138,7 @@ h1 { font-size: 32px; }
 
 h2 {font-size: 22px; font-weight: bold; color: #303030; }
 
-h3 {font-size: 18px; font-weight: bold; color: #d5000d; }
+h3 {font-size: 20px; font-weight: bold; color: #303030; }
 
 h4 { font-size: 16px; font-weight: bold; color: #303030; }
 
@@ -148,7 +148,8 @@ h6 { font-size: .8em; color: #303030; }
 
 p { margin-bottom: 20px; font-weight: 300; }
 
-a { text-decoration: none; }
+a { text-decoration: underline; }
+a:hover { text-decoration: none; }
 
 p a { font-weight: 400; }
 
@@ -255,3 +256,52 @@ footer a:hover { color: #444; }
 .clen-links{margin: 8px 0 0;}
 .clen-links a{display: inline-block; height: 25px; border-radius: 3px; overflow: hidden; box-shadow: 1px 1px 1px #666; margin: 0 5px 5px 0;}
 .clen-links a img {width: auto; height: 100%;}
+
+#hriste {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.hriste {
+  border-left: 3px solid #637f8e;
+  padding: 20px 30px;
+  background: #fefefe;
+  margin: 30px 0 0;
+  position: relative;
+}
+.hriste:after,
+.hriste:before {
+  content: "";
+  display: block;
+  clear: both;
+  width: 100%;
+}
+.hriste h3{ margin-top: 0; padding-top: 0; }
+.hriste a{}
+.hriste .tag-info {
+  display: inline-block;
+  padding: 5px 10px; 
+  background: #637f8e;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #283942;
+}
+.hriste .tag-info:hover {
+  background: #415865;
+  }
+.hriste .tag-info a {
+  color: #ffffff;
+  display: block;
+}
+.hriste .tag-info.mapa {
+  padding: 0;
+}
+.hriste .tag-info.mapa a{
+  cursor: pointer;
+  padding:5px 10px 5px 40px;
+  background-image: url(https://www.google.com/images/branding/product/ico/maps_32dp.ico);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 5px 5px;
+  font-weight: 300;  
+
+}
+.hriste .tag-info strong{ font-weight: 300; }

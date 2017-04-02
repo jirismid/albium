@@ -280,6 +280,7 @@ footer a:hover { color: #444; }
 .hriste .tag-info {
   display: inline-block;
   padding: 5px 10px; 
+  margin: 0 3px 3px 0;
   background: #637f8e;
   color: #ffffff;
   text-shadow: 1px 1px 1px #283942;

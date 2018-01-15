@@ -161,11 +161,11 @@ ol li { list-style-position: inside; list-style: decimal; padding-left: 3px; }
 
 dl dt { color: #303030; }
 
-footer { padding-top: 20px; padding-bottom: 30px; margin-top: 40px; font-size: 13px; color: #aaa; background: transparent url("../images/hr.png") 0 0 no-repeat; }
+footer { padding-top: 20px; padding-bottom: 30px; margin-top: 40px; text-align: center; font-size: 13px; color: #fff; background: #324752; text-shadow: 0 0 0 #324752;}
 
-footer a { color: #666; }
+footer a { color: #fff; }
 
-footer a:hover { color: #444; }
+footer a:hover { color: #fff; }
 
 /* MISC */
 .clearfix:after { display: block; height: 0; clear: both; visibility: hidden; content: '.'; }
@@ -202,6 +202,8 @@ footer a:hover { color: #444; }
   border: 1px dotted #ccc;
   border-left: 0;
   border-right: 0; 
+}
+.clenove {
   display: flex;
   flex-wrap: wrap;
   }
@@ -264,6 +266,10 @@ footer a:hover { color: #444; }
 .clen-links{margin: 8px 0 0;}
 .clen-links a{display: inline-block; height: 25px; border-radius: 3px; overflow: hidden; box-shadow: 1px 1px 1px #666; margin: 0 5px 5px 0;}
 .clen-links a img {width: auto; height: 100%;}
+
+#registrace {
+  text-align: center;
+}
 
 #hriste {
   max-width: 800px;
@@ -331,5 +337,16 @@ display: inline-block;}
 nav ul li {float: left; list-style: none;}
 nav ul li a {display: block; padding: 10px 15px;}
 
-a.btn {}
-a.btn:hover {}
+a.btn {
+  border: 2px solid #2e647b;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: #2e647b ;
+  font-weight: 700;
+}
+a.btn:hover {
+  background: #2e647b;
+  color: white;
+}

@@ -306,3 +306,11 @@ footer a:hover { color: #444; }
 
 }
 .hriste .tag-info strong{ font-weight: 300; }
+
+nav {}
+nav ul {padding: 0; margin: 0;}
+nav ul li {float: left;}
+nav ul li a {display: block; padding: 10px 15px;}
+
+a.btn {}
+a.btn:hover {}

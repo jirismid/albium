@@ -269,6 +269,7 @@ footer a:hover { color: #fff; }
 
 #registrace {
   text-align: center;
+  padding: 30px;
 }
 
 #registrace:after,

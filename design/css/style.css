@@ -196,7 +196,15 @@ footer a:hover { color: #444; }
 }
 
 #main-content { max-width: 500px; width: 100%; display: block; margin: 0 auto;}
-#clenove {display: block; margin: 30px auto; max-width: 800px; position: relative; text-align: center;}
+#clenove {display: block; margin: 30px auto; position: relative; text-align: center;
+  background: white;
+  padding: 1px 40px;
+  border: 1px dotted #ccc;
+  border-left: 0;
+  border-right: 0; 
+  display: flex;
+  flex-wrap: wrap;
+  }
 #clenove:after,
 #clenove:before {
   content: "";
@@ -307,9 +315,20 @@ footer a:hover { color: #444; }
 }
 .hriste .tag-info strong{ font-weight: 300; }
 
-nav {}
-nav ul {padding: 0; margin: 0;}
-nav ul li {float: left;}
+nav {
+  display: block;
+  padding: 5px 10px;
+  text-align: center;
+}
+nav:after,
+nav:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+nav ul {padding: 0; margin: 0;
+display: inline-block;}
+nav ul li {float: left; list-style: none;}
 nav ul li a {display: block; padding: 10px 15px;}
 
 a.btn {}

@@ -348,6 +348,7 @@ nav ul li a {display: block; padding: 10px 15px;}
 a.btn {
   border: 2px solid #2e647b;
   padding: 10px 15px;
+  margin: 0 5px 5px;
   border-radius: 5px;
   display: inline-block;
   text-decoration: none;

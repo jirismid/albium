@@ -668,3 +668,17 @@ hriste
 .clen .clen-links a img {width: auto; height: 100%;}
 
 
+.sponzori {
+    background: white;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.sponzori a{
+    display: inline-block;
+}
+.sponzori a img{
+    display: block;
+    width: 200px;
+    height: auto;
+    }

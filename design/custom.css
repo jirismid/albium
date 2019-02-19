@@ -76,6 +76,8 @@ header .logo svg{
   display: block;
 }
 
+header .logo svg {}
+
 footer { padding-top: 20px; padding-bottom: 30px; text-align: center; font-size: 13px; color: #fff; background: #324752; text-shadow: 0 0 0 #324752;}
 
 footer a { color: #fff; }
@@ -203,6 +205,10 @@ h3, h4 {
 @media only screen and (min-width: 1024px) {
     .logo{}
     .logo a{left: 0;}
+    .logo a svg {
+        width: 90px;
+        height: 69px;
+    }
     .main-menu {margin: 15px 0 0;}
     header .wrapper {
         padding: 0 15px 0;
@@ -676,6 +682,7 @@ hriste
 .sponzori a{
     display: inline-block;
     margin: 0 20px;
+    vertical-align: middle;
 }
 .sponzori a img{
     display: block;

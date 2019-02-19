@@ -16,7 +16,6 @@ background: #324752;
 
 main[role='main']{
     padding: 0;
-    margin-bottom: -137px;
 }
 main[role='main'] .wrapper {
     background: transparent;
@@ -680,6 +679,5 @@ hriste
 }
 .sponzori a img{
     display: block;
-    width: 200px;
     height: auto;
 }

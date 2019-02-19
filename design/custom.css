@@ -72,8 +72,8 @@ header .logo{
   width: 100px;
 }
 header .logo svg{
-  width: 100%;
-  height: auto;
+  width: 60px;
+  height: 46px;
   display: block;
 }
 
@@ -142,7 +142,7 @@ header .wrapper {
 .logo {
 	top: 0;
     width: auto;
-    height: 76px;
+    height: auto;
     left: -10px;
     text-indent: 0;
     text-align: left;
@@ -152,11 +152,11 @@ header .wrapper {
     text-decoration: none;
     width: auto;
 }
-.logo svg {
-    width: 100%;
-    height: auto;
-    display: block;    
-}
+
+
+
+
+
 .logo span {
     font-size: 21px;
     vertical-align: top;
@@ -680,6 +680,6 @@ hriste
 }
 .sponzori a img{
     display: block;
-    width: auto;
-    height: 90px;
-    }
+    width: 200px;
+    height: auto;
+}

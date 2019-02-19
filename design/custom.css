@@ -77,7 +77,7 @@ header .logo svg{
   display: block;
 }
 
-footer { padding-top: 20px; padding-bottom: 30px; margin-top: 40px; text-align: center; font-size: 13px; color: #fff; background: #324752; text-shadow: 0 0 0 #324752;}
+footer { padding-top: 20px; padding-bottom: 30px; text-align: center; font-size: 13px; color: #fff; background: #324752; text-shadow: 0 0 0 #324752;}
 
 footer a { color: #fff; }
 
@@ -211,7 +211,7 @@ h3, h4 {
 }
 
 
-.footer {
+ {
     padding: 30px 10px;
     background: transparent;
     color: rgba(17, 75, 121, 0.28);
@@ -676,9 +676,10 @@ hriste
 
 .sponzori a{
     display: inline-block;
+    margin: 0 20px;
 }
 .sponzori a img{
     display: block;
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 90px;
     }

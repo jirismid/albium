@@ -227,9 +227,9 @@ section:nth-child(odd) {
 .clen {
   display: block;
   text-align: center;
-  margin: 0 auto 30px;
-  max-width: 400px;
-  text-align: left;
+  margin: 0 auto 0px;
+  width: 160px;
+  overflow: hidden;
 }
 .clen:after,
 .clen:before {
@@ -260,6 +260,7 @@ section:nth-child(odd) {
 }
 .clen .clen-body{margin: 5px 0 0;font-weight: 300;font-size: 90%;}
 .clen .clen-jmeno{font-weight: 400; font-size: 110%;}
+.clen .clen-email{white-space: nowrap;  font-size: 80%;}
 .clen .clen-links{margin: 8px 0 0;}
 .clen .clen-links a{
   display: inline-block; 

@@ -2,11 +2,12 @@
     $(document).ready(function () {
         $('body').addClass('slowImg');  
 
-        function iframeFix(){
-            $('iframe').wrap('<div class="fix-iframe" />');
-            $('.fix-iframe').prepend('<img src="design/img/bg_iframe.gif" />');
-        }
-        iframeFix();
+//        function iframeFix(){
+//            $('iframe').wrap('<div class="fix-iframe" />');
+//            $('.fix-iframe').prepend('<img src="design/img/bg_iframe.gif" />');
+//        }
+//        iframeFix();
+
 
         $( "#menu-btn" ).click(function() {
             $( this ).parent().find('#paragraph-menu').slideToggle();
